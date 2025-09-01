@@ -51,15 +51,13 @@ topics:
   - interceptor
 
 environment:
-  sdk: ">=3.5.0 <4.0.0"      # turun dari 3.7 ke 3.5 agar cocok dgn toolchainmu
-  flutter: ">=3.16.0"        # longgar, tetap kompatibel dgn 3.32.x kamu
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.16.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_local_notifications: ^19.4.0
-  # Biar nyambung dgn project utama (flutter_google_places ^0.3.0 → rxdart ^0.26)
-  # tapi tetap fleksibel kalau nanti kamu upgrade:
+  flutter_local_notifications: ^18.0.1
   rxdart: ">=0.26.0 <0.29.0"
   path_provider: ^2.1.5
   permission_handler: ^12.0.1
